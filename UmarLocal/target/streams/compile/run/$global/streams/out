@@ -1,7 +1,7 @@
 [0m[[0minfo[0m] [0mRunning local.Local [0m
 [0m[[0mdebug[0m] [0mWaiting for threads to exit or System.exit to be called.[0m
 [0m[[0mdebug[0m] [0m  Classpath:[0m
-[0m[[0mdebug[0m] [0m	C:\Users\sgaga\Dropbox\#University of FLorida\UFCoursesDetails\Fall2015\DOS\Projects\Project 1\FInalSubmitted\Project1_Gagan_Umar\UmarLocal\target\scala-2.10\classes[0m
+[0m[[0mdebug[0m] [0m	C:\Users\sgaga\Documents\GitHub\BitCoin_Mining-DOS\UmarLocal\target\scala-2.10\classes[0m
 [0m[[0mdebug[0m] [0m	C:\Users\sgaga\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.10.1.jar[0m
 [0m[[0mdebug[0m] [0m	C:\Users\sgaga\.ivy2\cache\com.typesafe.akka\akka-actor_2.10\bundles\akka-actor_2.10-2.1.1.jar[0m
 [0m[[0mdebug[0m] [0m	C:\Users\sgaga\.ivy2\cache\com.typesafe\config\bundles\config-1.0.0.jar[0m
@@ -11,4 +11,4 @@
 [0m[[0mdebug[0m] [0m	C:\Users\sgaga\.ivy2\cache\org.uncommons.maths\uncommons-maths\jars\uncommons-maths-1.2.2a.jar[0m
 [0m[[0mdebug[0m] [0mWaiting for thread run-main-0 to terminate.[0m
 [0m[[0mdebug[0m] [0m	Thread run-main-0 exited.[0m
-[0m[[0mdebug[0m] [0mWaiting for thread New I/O  worker #4 to terminate.[0m
+[0m[[0mdebug[0m] [0mWaiting for thread New I/O  worker #12 to terminate.[0m

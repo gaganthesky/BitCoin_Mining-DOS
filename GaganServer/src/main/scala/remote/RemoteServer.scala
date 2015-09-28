@@ -14,7 +14,7 @@ case class FindBitCoins(k: Int, gatorId: String, mineString:String) //to determi
 object HelloRemote extends App  {
   	println("Enter the required number of leading zeros")
     val k = readInt
-    val gatorId = "umarmajeed" 		
+    val gatorId = "umargagan" 		
 	val system = ActorSystem("RemoteSystem")
 	val remoteActor = system.actorOf(Props(new RemoteActor(k)), name = "RemoteActor")
 	remoteActor ! "The RemoteActor is alive"
@@ -72,7 +72,7 @@ class Miner(gatorId: String, k:Int) extends Actor{
 			*generate random threads and send it to the miner. 
 			*/
 			println("starting")
-			for (i<-0 to 1000000){
+			for (i<-0 to 900000){
 				mineString = scala.util.Random.alphanumeric.take(9).mkString
 				actorWorker ! FindBitCoins(k,gatorId,mineString)
 			}
